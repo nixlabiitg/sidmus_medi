@@ -44,15 +44,14 @@
                                 <ul class="header-top-list">
                                     <li><a href="https://live.themewild.com/cdn-cgi/l/email-protection#abc2c5cdc4ebced3cac6dbc7ce85c8c4c6"><i class="far fa-envelopes"></i>
                                             <span class="__cf_email__" data-cfemail="523b3c343d12372a333f223e377c313d3f">[email&#160;protected]</span></a></li>
-                                    <li><a href="tel:+21236547898"><i class="far fa-headset"></i> +2 123 654 7898</a></li>
-                                    <li class="help"><a href="#"><i class="far fa-comment-question"></i> Need Help?</a></li>
+                                    <li><a href="tel:+911236547898"><i class="far fa-headset"></i> +91 123 654 7898</a></li>
+                                    <li class="help"><a href=""><i class="far fa-comment-question"></i> Need Help?</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-6 col-xl-7">
                             <div class="header-top-right">
                                 <ul class="header-top-list">
-                                    <li><a href="#"><i class="far fa-timer"></i> Daily Deal</a></li>
                                     <li class="social">
                                         <div class="header-top-social">
                                             <span>Follow Us: </span>
@@ -117,25 +116,27 @@
                                         <li class="dropdown-item" href="">FAQ</li>
                                     </ul> -->
                                 </li>
-                                <li class="nav-item"><a class="nav-link <?php if($page == 'product') echo 'active';?>" href="shop">Products</a></li>
+                                <li class="nav-item"><a class="nav-link <?php if($page == 'product') echo 'active';?>" href="product">Products</a></li>
                                 <li class="nav-item"><a class="nav-link <?php if($page == 'blog') echo 'active';?>" href="blog">Blog</a></li>
                                 <li class="nav-item"><a class="nav-link <?php if($page == 'gallery') echo 'active';?>" href="gallery">Gallery</a></li>
                                 <li class="nav-item"><a class="nav-link <?php if($page == 'faq') echo 'active';?>" href="faq">FAQ</a></li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle<?php if(in_array($page, ['help','privacy','terms'])) echo 'active'; ?>" href="#" data-bs-toggle="dropdown">Support</a>
+                                    <a class="nav-link dropdown-toggle <?php if(in_array($page, ['privacy','terms'])) echo 'active'; ?>" href="#" data-bs-toggle="dropdown">Support</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item <?php if($page == 'help') echo 'active';?>" href="help">Help</a></li>
                                         <li><a class="dropdown-item <?php if($page == 'privacy') echo 'active';?>" href="privacy">Privacy & Policy</a></li>
                                         <li><a class="dropdown-item <?php if($page == 'terms') echo 'active';?>" href="terms">Terms & Condition</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link <?php if($page == 'download') echo 'active';?>" href="contact">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link <?php if($page == 'contact') echo 'active';?>" href="contact">Contact</a></li>
                             </ul>
                             <!-- nav-right -->
                             <div class="nav-right">
-                                <a href="#" class="nav-right-link search-box-outer">
-                                    <i class="far fa-search"></i>
+                                <a href="https://wa.me/919876543210?text=Hello%2C%20I%20have%20a%20query%20regarding%20your%20services." 
+                                    target="_blank" 
+                                    class="nav-right-link theme-btn text-white">
+                                    Get in Touch
                                 </a>
+
                             </div>
                         </div>
                     </div>
@@ -143,22 +144,6 @@
             </nav>
         </div>
         <!-- navbar end -->
-
     </header>
     <!-- header area end -->
-
-
-    <!-- popup search -->
-    <div class="search-popup">
-        <button class="close-search"><span class="far fa-times"></span></button>
-        <form action="#">
-            <div class="form-group">
-                <input type="search" name="search-field" class="form-control" placeholder="Search Here..." required>
-                <button type="submit"><i class="far fa-search"></i></button>
-            </div>
-        </form>
-    </div>
-    <!-- popup search end -->
-
-
     <main class="main">

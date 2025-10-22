@@ -25,93 +25,80 @@ include("include/header.php"); ?>
                         <div class="terms-content">
                             <h3>Our Performance</h3>
                             <p>
-                                Sed ac sollicitudin ipsum. Vivamus vulputate, enim sit amet aliquet lacinia, ex mauris
-                                aliquam elit, vel pharetra augue arcu ultricies magna. Suspendisse justo erat, dignissim
-                                ut imperdiet ut, convallis vitae urna. Vivamus tincidunt lacinia metus sed suscipit.
-                                Phasellus luctus rhoncus mauris ut euismod. Aliquam elementum malesuada erat, vitae
-                                bibendum ex rutrum eget. Mauris sed nunc mauris. Curabitur semper sed justo a
-                                pellentesque. In hac habitasse platea dictumst. Mauris semper volutpat iaculis.
-                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-                                Curabitur consectetur dignissim nulla id ornare. Praesent placerat dolor vitae tellus
-                                lacinia, a malesuada est sodales. Praesent at consectetur sem, sed scelerisque arcu.
-                                Maecenas malesuada lorem id sagittis scelerisque. In hac habitasse platea dictumst.
+                                Sidmus Medi Corporation is dedicated to maintaining the highest standards of service in all areas of our operations. We strive to provide accurate information, timely updates, and seamless user experience across our website and services. Our team continuously monitors service quality to ensure that users have access to the most reliable and useful information regarding healthcare products, medicines, and wellness guidance. Any feedback received from users is carefully evaluated and incorporated to improve performance, enhance usability, and strengthen our commitment to customer satisfaction. Our focus on excellence ensures that all interactions, from online browsing to product inquiries, meet our rigorous quality standards.
                             </p>
                         </div>
+
                         <div class="terms-content">
-                            <h3>Cookie</h3>
+                            <h3>Cookie Policy</h3>
                             <p>
-                                Pellentesque sit amet nulla facilisis, lobortis ex at, consequat diam. Pellentesque sed
-                                dui lorem. Aliquam vel euismod nunc. Nulla facilisi. Donec consectetur faucibus rutrum.
-                                Pellentesque ac ultricies sapien, ac iaculis erat. Vivamus posuere eget nulla sit amet
-                                vehicula. Donec finibus maximus eros, at tincidunt ipsum vestibulum ac. Integer vel
-                                metus vehicula, consequat velit a, eleifend mi. Curabitur erat mauris, luctus non dictum
-                                vel, fringilla dignissim quam. Phasellus eleifend porta fermentum. Pellentesque posuere
-                                massa vitae odio pulvinar feugiat. Fusce a risus sodales, maximus sapien sit amet,
-                                pharetra ipsum. Vivamus varius eros ac sapien pulvinar, nec tincidunt dui bibendum.
-                                Proin consectetur nibh tortor, nec vulputate ex posuere eget.
+                                Our website uses cookies and similar tracking technologies to provide a better browsing experience, personalize content, and analyze traffic. Cookies may collect information about your device, browser type, and pages visited. These help us understand user preferences, maintain session continuity, and enhance overall functionality. Users have the option to disable cookies via their browser settings, but certain features or services on the website may not function correctly without cookies. By continuing to use our site, you consent to the use of cookies in accordance with this policy.
                             </p>
                         </div>
+
                         <div class="terms-content">
                             <h3>Payments</h3>
                             <p>
-                                Amet nulla facilisis, lobortis ex at, consequat diam. Pellentesque sed dui lorem.
-                                Aliquam vel euismod nunc. Nulla facilisi. Donec consectetur faucibus rutrum.
-                                Pellentesque ac ultricies sapien, ac iaculis erat. Vivamus posuere eget nulla sit amet
-                                vehicula. Donec finibus maximus eros, at tincidunt ipsum vestibulum ac. Integer vel
-                                metus vehicula, consequat velit a, eleifend mi. Curabitur erat mauris, luctus non dictum
-                                vel, fringilla dignissim quam. Phasellus eleifend porta fermentum. Pellentesque posuere
-                                massa vitae odio pulvinar feugiat. Fusce a risus sodales, maximus sapien sit amet,
-                                pharetra ipsum. Vivamus varius eros ac sapien pulvinar, nec tincidunt dui bibendum.
-                                Proin consectetur nibh tortor, nec vulputate ex posuere eget.
+                                All payments made through our website or associated platforms are processed securely using authorized payment gateways. We ensure that sensitive information such as credit card or banking details is handled with encryption and protected against unauthorized access. Users are responsible for providing accurate billing and payment information. Any disputes regarding transactions must be reported promptly to our customer support team. We reserve the right to suspend or cancel services if payment issues occur or if fraudulent activity is detected. Our goal is to provide transparent, secure, and reliable payment processes for all users.
                             </p>
                         </div>
+
                         <div class="terms-content">
                             <h3>Refund Policy</h3>
                             <p>
-                                Donec ut vestibulum sem, in faucibus mauris. Nulla et luctus nulla. Vestibulum
-                                consectetur nisi nec lobortis pretium. Fusce dignissim in sem in bibendum. Vivamus
-                                fermentum massa et egestas gravida. Suspendisse at vulputate ante, id tempus nunc.
-                                Curabitur sed dolor a elit ornare commodo. Curabitur blandit enim nulla, ornare suscipit
-                                risus pretium ut. Nullam rhoncus, sem eget dapibus elementum, purus dolor rutrum magna,
-                                nec laoreet odio sapien sit amet erat.
+                                Refunds are considered under circumstances such as incorrect product delivery, defective products, or service errors. Requests must be submitted within a reasonable timeframe along with supporting documentation or evidence. Each refund request is reviewed individually and handled in accordance with our internal policies and applicable consumer protection laws. While we strive to process refunds promptly, the time frame may vary depending on the nature of the request and the method of payment. Users are encouraged to read product descriptions and terms carefully before making purchases.
                             </p>
                             <p>
-                                Proin non ante purus. Donec ante enim, semper vel mauris at, rutrum blandit mauris.
-                                Vivamus at ante sit amet leo consequat viverra quis at odio. Proin arcu magna, placerat
-                                sed lorem id, rutrum convallis ante.
-                            </p>
-                            <p>
-                                Nam venenatis vestibulum mauris ut viverra. Ut porta consequat lorem a ullamcorper. In
-                                et arcu quam. Nunc tristique justo nec lectus ornare placerat. Nulla ut fringilla mi.
-                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                                Refund eligibility may vary based on the type of product or service purchased. Digital products, personalized services, or healthcare consultation services may have different refund criteria. Our objective is to resolve issues fairly, ensure user satisfaction, and maintain trust in our services. All decisions regarding refunds are communicated clearly to the user and documented for transparency.
                             </p>
                         </div>
+
                         <div class="terms-content">
-                            <h3>Hyperlinking to our Content</h3>
-                            <p>Sed ac sollicitudin ipsum ivamus vulputate enim sit amet aliquet lacinia mauris aliquam
-                                elit:</p>
+                            <h3>Hyperlinking to Our Content</h3>
+                            <p>
+                                External websites or users may link to our content under specific conditions to maintain content integrity and avoid misleading representations. We encourage ethical linking practices and proper attribution of our materials.
+                            </p>
                             <ul class="terms-list ms-4">
-                                <li>1. Ut scelerisque hendrerit venenatis</li>
-                                <li>2. Proin fermentum lacus nec augue blandit placerat</li>
-                                <li>3. Ut vestibulum elit justo suscipit sem ultricies</li>
-                                <li>4. Integer fermentum vitae magna in condimentum</li>
-                                <li>5. Aenean ultrices neque id pellentesque tincidunt</li>
-                                <li>6. Donec ut vestibulum sem, in faucibus mauris.</li>
+                                <li>1. Links must not alter or misrepresent our content.</li>
+                                <li>2. Links should not imply any endorsement by Sidmus Medi Corporation unless explicitly stated.</li>
+                                <li>3. Hyperlinks should not be used for commercial purposes without permission.</li>
+                                <li>4. Content must remain within the original context, and branding must be preserved.</li>
+                                <li>5. Websites linking to us are responsible for ensuring their content is lawful and appropriate.</li>
+                                <li>6. Any unauthorized or inappropriate linking may be removed at our discretion.</li>
                             </ul>
                         </div>
+
                         <div class="terms-content">
                             <h3>Disclaimer</h3>
                             <p>
-                                Donec facilisis consequat nisi. Vivamus euismod at ipsum a gravida. Quisque vitae augue
-                                maximus elit iaculis tincidunt. Quisque dapibus dui non justo iaculis volutpat.
-                                Phasellus vulputate tempus lorem vitae vehicula. Maecenas interdum venenatis ante,
-                                scelerisque porta nibh mollis vitae. Curabitur in erat porttitor, imperdiet lectus non,
-                                porttitor odio. Donec efficitur efficitur dapibus. Aenean sit amet tortor id lorem
-                                ultricies rhoncus. Etiam ornare eros eu commodo vehicula. Curabitur vel enim eget velit
-                                tincidunt viverra eu in risus. Aliquam suscipit tellus eu fermentum facilisis.
-                                Pellentesque volutpat posuere ligula. Fusce et consequat mi.
+                                The information provided on this website is for general educational and informational purposes only. While we aim for accuracy and completeness, Sidmus Medi Corporation does not guarantee that all content is free from errors or omissions. Users should consult qualified healthcare professionals before making decisions based on the information provided. We are not responsible for any loss, damage, or consequences resulting from reliance on the content. External links, third-party products, or services mentioned are for convenience and informational purposes only and do not imply endorsement.
+                            </p>
+                            <p>
+                                All materials are provided "as is" without warranties of any kind. Users assume full responsibility for their use of the website. Our liability is limited to the extent permitted by applicable law, and we disclaim responsibility for indirect or incidental damages. By using this website, you acknowledge that you understand and accept this disclaimer.
                             </p>
                         </div>
+
+                        <div class="terms-content">
+                            <h3>Governing Law</h3>
+                            <p>
+                                These Terms & Conditions, along with any disputes arising from your use of our website or services, are governed by the laws of India. Any legal action or proceeding must be brought exclusively in the courts located in Assam, India. Users agree to submit to the jurisdiction of these courts and waive objections regarding inconvenient forum. Compliance with local laws and regulations is the responsibility of users, and Sidmus Medi Corporation will cooperate with legal authorities as required by law.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>Modifications to Terms</h3>
+                            <p>
+                                Sidmus Medi Corporation reserves the right to update or modify these Terms & Conditions at any time without prior notice. Updated terms will be posted on the website, and continued use constitutes acceptance of the revised terms. Users are encouraged to review this page periodically to stay informed of changes. Any significant modifications affecting user rights will be highlighted, but it remains the user’s responsibility to stay updated.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>Contact Information</h3>
+                            <p>
+                                For any questions, concerns, or clarifications regarding these Terms & Conditions, please contact Sidmus Medi Corporation at <a href="mailto:info@sidmusmedi.com">info@sidmusmedi.com</a>. We strive to respond promptly and resolve any issues efficiently to ensure a safe and trustworthy user experience.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -18,9 +18,9 @@ include("include/header.php");
                                 We are committed to delivering safe, effective, and affordable medicines that help people lead healthier lives.
                             </p>
                             <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
-                                <a href="shop-grid" class="theme-btn">Learn More<i
+                                <a href="about" class="theme-btn">Learn More<i
                                         class="fas fa-arrow-right"></i></a>
-                                <a href="about" class="theme-btn theme-btn2">Contact Us<i
+                                <a href="contact" class="theme-btn theme-btn2">Contact Us<i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ include("include/header.php");
                     <div class="col-lg-6">
                         <div class="hero-right">
                             <div class="hero-img">
-                                <img src="assets/img/hero/hero-1.png" alt="">
+                                <img src="assets/img/home/10_bg.png" alt="">
                             </div>
                             <div class="hero-img-info">
                                 <div class="icon">
@@ -77,7 +77,7 @@ include("include/header.php");
                     <div class="about-img">
                         <div class="row">
                             <div class="col-7">
-                                <img class="img-1" src="assets/img/about/01.jpg" alt="Sidmus Medi Corporation Office">
+                                <img class="img-1" src="assets/img/home/8.jpeg" alt="Sidmus Medi Corporation Office">
                             </div>
                             <div class="col-5 align-self-end">
                                 <img class="img-2" src="assets/img/home/2.jpeg" alt="Sidmus Products">
@@ -119,7 +119,7 @@ include("include/header.php");
                             <li><i class="fas fa-check-double"></i> Commitment to ethical and transparent practices</li>
                         </ul>
                     </div>
-                    <a href="contact" class="theme-btn mt-4">Discover More<i class="fas fa-arrow-right"></i></a>
+                    <a href="about" class="theme-btn mt-4">Discover More<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -129,151 +129,51 @@ include("include/header.php");
 
 
     <!-- trending item -->
-    <div class="product-area mt-10 pt-10 pb-100">
+    <div class="product-area mt-10 pt-10 pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-12 wow fadeInDown" data-wow-delay=".25s">
                     <div class="site-heading-inline">
                         <h2 class="site-title">Trending Items</h2>
-                        <a href="#">View More <i class="fas fa-angle-double-right"></i></a>
+                        <a href="product">View More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="product-wrap wow fadeInUp" data-wow-delay=".25s">
-                <div class="product-slider owl-carousel owl-theme">
-                    <div class="product-item">
-                        <div class="product-img">
-                            <span class="type new">New</span>
-                            <a href="shop-single"><img src="assets/img/product/01.png" alt=""></a>
-                            
-                        </div>
-                        <div class="product-content">
-                            <h3 class="product-title"><a href="shop-single">Surgical Face Mask</a></h3>
-                            <div class="product-rate">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="product-bottom">
-                                <div class="product-price">
-                                    <span>$250.00</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <span class="type hot">Hot</span>
-                            <a href="shop-single"><img src="assets/img/product/02.png" alt=""></a>
-                            
-                        </div>
-                        <div class="product-content">
-                            <h3 class="product-title"><a href="shop-single">Surgical Face Mask</a></h3>
-                            <div class="product-rate">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="product-bottom">
-                                <div class="product-price">
-                                    <span>$250.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <span class="type oos">Out Of Stock</span>
-                            <a href="shop-single"><img src="assets/img/product/03.png" alt=""></a>
-                            
-                        </div>
-                        <div class="product-content">
-                            <h3 class="product-title"><a href="shop-single">Surgical Face Mask</a></h3>
-                            <div class="product-rate">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="product-bottom">
-                                <div class="product-price">
-                                    <span>$250.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <span class="type discount">10% Off</span>
-                            <a href="shop-single"><img src="assets/img/product/04.png" alt=""></a>
-                            
-                        </div>
-                        <div class="product-content">
-                            <h3 class="product-title"><a href="shop-single">Surgical Face Mask</a></h3>
-                            <div class="product-rate">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="product-bottom">
-                                <div class="product-price">
-                                    <del>$250.00</del>
-                                    <span>$190.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <a href="shop-single"><img src="assets/img/product/05.png" alt=""></a>
-                            
-                        </div>
-                        <div class="product-content">
-                            <h3 class="product-title"><a href="shop-single">Surgical Face Mask</a></h3>
-                            <div class="product-rate">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="product-bottom">
-                                <div class="product-price">
-                                    <span>$250.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <a href="shop-single"><img src="assets/img/product/06.png" alt=""></a>
-                            
-                        </div>
-                        <div class="product-content">
-                            <h3 class="product-title"><a href="shop-single">Surgical Face Mask</a></h3>
-                            <div class="product-rate">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="product-bottom">
-                                <div class="product-price">
-                                    <span>$250.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row g-4" id="productRow">
                 </div>
+
+                <script>
+                    const products = [
+                        { image: "assets/img/medicine/1.jpeg", title: "Vitamin Capsule"  },
+                        { image: "assets/img/medicine/2.jpeg", title: "Injection" },
+                        { image: "assets/img/medicine/3.jpeg", title: "Syringe" },
+                        { image: "assets/img/medicine/4.jpeg", title: "Gastric Tablets" },
+                        { image: "assets/img/medicine/5.jpeg", title: "Stethoscope" },
+                        { image: "assets/img/medicine/6.jpeg", title: "Blood Sugar Machine" },
+                    ];
+
+                    const productRow = document.getElementById("productRow");
+
+                    products.forEach(product => {
+                        const col = document.createElement("div");
+                        col.className = "col-6 col-md-4 col-lg-2";
+
+                        col.innerHTML = `
+                            <div class="product-item">
+                                <div class="product-img">
+                                    <img src="${product.image}" class="img-fluid" alt="${product.title}" style="width:200px; height:200px; object-fit:cover;">
+                                </div>
+                                <div class="product-content text-center mt-2">
+                                    <h3 class="product-title h6" style="color: #023350;">${product.title}</h3>
+                                </div>
+                            </div>
+                        `;
+
+                        productRow.appendChild(col);
+                    });
+                </script>
+
             </div>
         </div>
     </div>
@@ -281,7 +181,7 @@ include("include/header.php");
 
 
     <!-- big banner -->
-    <div class="big-banner mb-50">
+    <div class="big-banner mb-20">
         <div class="container wow fadeInUp" data-wow-delay=".25s">
             <div class="banner-wrap" style="background-image: url(assets/img/banner/big-banner.jpg);">
                 <div class="row">
@@ -307,7 +207,7 @@ include("include/header.php");
             <div class="row g-4 align-items-center wow fadeInDown" data-wow-delay=".25s">
                 <div class="col-lg-4">
                     <div class="choose-img">
-                        <img src="assets/img/choose/01.jpg" alt="">
+                        <img src="assets/img/home/14.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -368,94 +268,58 @@ include("include/header.php");
     </div>
     <!-- choose-area end-->
 
-    <!-- video area -->
-    <!-- <div class="video-area pt-100">
-        <div class="container-fluid px-0">
-            <div class="video-content" style="background-image: url(assets/img/video/01.jpg);">
-                <div class="video-wrapper">
-                    <a class="play-btn popup-youtube" href="https://www.youtube.com/watch?v=ckHzmP1evNU">
-                        <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- video area end -->
-
     <!-- gallery-area -->
-    <div class="gallery-area py-70 mb-70">
+    <div class="gallery-area py-40 mb-40">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
                         <span class="site-title-tagline">Our Gallery</span>
                         <h2 class="site-title">Let's Check Our Photo <span>Gallery</span></h2>
+                         <a class="theme-btn mt-3" href="gallery">View All</a>
                     </div>
                 </div>
             </div>
-            <div class="row g-4 popup-gallery">
-                <div class="col-md-12 col-lg-6">
-                    <div class="gallery-item gallery-btn-active wow fadeInUp" data-wow-delay=".25s">
-                        <div class="gallery-img">
-                            <img src="assets/img/gallery/01.jpg" alt="">
-                            <a class="popup-img gallery-link" href="assets/img/gallery/01.jpg"><i
-                                class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                        <div class="gallery-img">
-                            <img src="assets/img/gallery/02.jpg" alt="">
-                            <a class="popup-img gallery-link" href="assets/img/gallery/02.jpg"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="gallery-img">
-                            <img src="assets/img/gallery/03.jpg" alt="">
-                            <a class="popup-img gallery-link" href="assets/img/gallery/03.jpg"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                        <div class="gallery-img">
-                            <img src="assets/img/gallery/04.jpg" alt="">
-                            <a class="popup-img gallery-link" href="assets/img/gallery/04.jpg"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="gallery-img">
-                            <img src="assets/img/gallery/05.jpg" alt="">
-                            <a class="popup-img gallery-link" href="assets/img/gallery/05.jpg"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-6">
-                    <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                        <div class="gallery-img">
-                            <img src="assets/img/gallery/06.jpg" alt="">
-                            <a class="popup-img gallery-link" href="assets/img/gallery/06.jpg"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="row g-4 popup-gallery" id="galleryContainer">
+                <!-- Gallery images will be loaded here -->
             </div>
+
+            <script>
+                // Array of image filenames (you can easily extend this)
+                const galleryImages = [
+                    "1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"
+                ];
+
+                const galleryContainer = document.getElementById("galleryContainer");
+
+                galleryImages.forEach((img, index) => {
+                    // Define column size layout similar to your original pattern
+                    let colClass = "col-md-4 col-lg-3";
+                    if (index === 0) colClass = "col-md-12 col-lg-6";
+                    if (index === 5) colClass = "col-md-8 col-lg-6";
+
+                    const div = document.createElement("div");
+                    div.className = `${colClass}`;
+                    div.innerHTML = `
+                        <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="gallery-img">
+                                <img src="assets/img/home/${img}" alt="Gallery Image" style="width:100%; height:250px; object-fit:cover;">
+                                <a class="popup-img gallery-link" href="assets/img/home/${img}">
+                                    <i class="fal fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                    galleryContainer.appendChild(div);
+                });
+            </script>
+
         </div>
     </div>
     <!-- gallery-area end -->
 
-
     <!-- testimonial area -->
-    <div class="testimonial-area ts-bg py-80">
+    <!-- <div class="testimonial-area ts-bg py-80">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mx-auto wow fadeInDown" data-wow-delay=".25s">
@@ -593,7 +457,7 @@ include("include/header.php");
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- testimonial area end -->
 
     <!-- blog area -->
@@ -604,78 +468,58 @@ include("include/header.php");
                     <div class="site-heading text-center">
                         <span class="site-title-tagline">Our Blog</span>
                         <h2 class="site-title">Our Latest News & <span>Blog</span></h2>
+                         <a class="theme-btn mt-3" href="blog">View All</a>
                     </div>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
+            <!-- Blog List View -->
+            <div class="row justify-content-center" id="homeBlogList"></div>
+            <script>
+                const blogs = [
+                {
+                    id: 1,
+                    heading: "The Role of Pharmaceutical Companies in Health.",
+                    image: "assets/img/home/3.jpeg",
+                    date: "Aug 12, 2024"
+                },
+                {
+                    id: 2,
+                    heading: "Common Myths About Medicines and Their Effects",
+                    image: "assets/img/home/9.jpeg",
+                    date: "Aug 15, 2024"
+                },
+                {
+                    id: 3,
+                    heading: "Seasonal Healthcare Tips for a Healthy Life",
+                    image: "assets/img/home/13.jpeg",
+                    date: "Aug 18, 2024"
+                }
+                ];
+
+                const homeBlogList = document.getElementById('homeBlogList');
+
+                blogs.slice(0, 3).forEach(blog => {
+                const col = document.createElement('div');
+                col.className = 'col-md-6 col-lg-4';
+
+                col.innerHTML = `
                     <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="blog-item-img">
-                            <img src="assets/img/blog/01.jpg" alt="Thumb">
-                            <span class="blog-date"><i class="far fa-calendar-alt"></i> Aug 12, 2024</span>
-                        </div>
-                        <div class="blog-item-info">
-                            <div class="blog-item-meta">
-                                <ul>
-                                    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-                                    <li><a href="#"><i class="far fa-comments"></i> 2.5k Comments</a></li>
-                                </ul>
-                            </div>
-                            <h4 class="blog-title">
-                                <a href="#">There are many variations of passage available majority suffered.</a>
-                            </h4>
-                            <p>There are many variations available the majority have suffered alteration randomised
-                                words.</p>
-                            <a class="theme-btn" href="#">Read More<i class="fas fa-arrow-right"></i></a>
-                        </div>
+                    <div class="blog-item-img">
+                        <img src="${blog.image}" style="width:100%; height:250px; object-fit:cover;" alt="Thumb">
+                        <span class="blog-date"><i class="far fa-calendar-alt"></i> ${blog.date}</span>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-item wow fadeInDown" data-wow-delay=".25s">
-                        <div class="blog-item-img">
-                            <img src="assets/img/blog/02.jpg" alt="Thumb">
-                            <span class="blog-date"><i class="far fa-calendar-alt"></i> Aug 15, 2024</span>
-                        </div>
-                        <div class="blog-item-info">
-                            <div class="blog-item-meta">
-                                <ul>
-                                    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-                                    <li><a href="#"><i class="far fa-comments"></i> 3.1k Comments</a></li>
-                                </ul>
-                            </div>
-                            <h4 class="blog-title">
-                                <a href="#">Contrary to popular belief making simply random text latin.</a>
-                            </h4>
-                            <p>There are many variations available the majority have suffered alteration randomised
-                                words.</p>
-                            <a class="theme-btn" href="#">Read More<i class="fas fa-arrow-right"></i></a>
-                        </div>
+                    <div class="blog-item-info">
+                        <h4 class="blog-title">
+                        <a href="blog?show=${blog.id}">${blog.heading}</a>
+                        </h4>
+                        <a class="theme-btn" href="blog?show=${blog.id}">Read More<i class="fas fa-arrow-right"></i></a>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="blog-item-img">
-                            <img src="assets/img/blog/03.jpg" alt="Thumb">
-                            <span class="blog-date"><i class="far fa-calendar-alt"></i> Aug 18, 2024</span>
-                        </div>
-                        <div class="blog-item-info">
-                            <div class="blog-item-meta">
-                                <ul>
-                                    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-                                    <li><a href="#"><i class="far fa-comments"></i> 1.6k Comments</a></li>
-                                </ul>
-                            </div>
-                            <h4 class="blog-title">
-                                <a href="#"> If you are going use passage you need sure there middle
-                                    text.</a>
-                            </h4>
-                            <p>There are many variations available the majority have suffered alteration randomised
-                                words.</p>
-                            <a class="theme-btn" href="#">Read More<i class="fas fa-arrow-right"></i></a>
-                        </div>
                     </div>
-                </div>
-            </div>
+                `;
+
+                homeBlogList.appendChild(col);
+                });
+            </script>
         </div>
     </div>
     <!-- blog area end -->

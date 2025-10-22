@@ -27,7 +27,7 @@ include("include/header.php");
                     <div class="about-img">
                         <div class="row">
                             <div class="col-7">
-                                <img class="img-1" src="assets/img/about/01.jpg" alt="">
+                                <img class="img-1" src="assets/img/home/8.jpeg" alt="">
                             </div>
                             <div class="col-5 align-self-end">
                                 <img class="img-2" src="assets/img/home/2.jpeg" alt="">
@@ -81,7 +81,7 @@ include("include/header.php");
         <div class="row g-4 align-items-center wow fadeInDown" data-wow-delay=".25s">
             <div class="col-lg-4">
                 <div class="choose-img">
-                    <img src="assets/img/choose/01.jpg" alt="">
+                    <img src="assets/img/home/14.png" alt="">
                 </div>
             </div>
             <div class="col-lg-4">

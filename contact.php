@@ -32,7 +32,7 @@ include("include/header.php"); ?>
                                         </div>
                                         <div class="contact-info-content">
                                             <h5>Office Address</h5>
-                                            <p>25/B Milford Elm Drive Road, New York, USA</p>
+                                            <p>Guwahati, Assam</p>
                                         </div>
                                     </div>
                                 </div>
@@ -43,8 +43,7 @@ include("include/header.php"); ?>
                                         </div>
                                         <div class="contact-info-content">
                                             <h5>Call Us</h5>
-                                            <p>+2 123 4565 788</p>
-                                            <p>+2 123 4565 789</p>
+                                            <p>+91 123 4565 788</p>
                                         </div>
                                     </div>
                                 </div>
@@ -82,35 +81,61 @@ include("include/header.php"); ?>
                                 <p>It is a long established fact that a reader will be distracted by the readable
                                     content of a page words which even slightly when looking at its layout. </p>
                             </div>
-                            <form method="post" action="https://live.themewild.com/medion/assets/php/contact.php" id="contact-form">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name"
-                                                placeholder="Your Name" required>
+                            <div class="contact-form-wrapper">
+                                <form id="whatsappForm">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" 
+                                                    pattern="[6-9][0-9]{9}" maxlength="10" required>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email"
-                                                placeholder="Your Email" required>
-                                        </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject" required>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="subject"
-                                        placeholder="Your Subject" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" cols="30" rows="4" class="form-control"
-                                        placeholder="Write Your Message" required></textarea>
-                                </div>
-                                <button type="submit" class="theme-btn">Send
-                                    Message <i class="far fa-paper-plane"></i></button>
-                                <div class="col-md-12 my-3">
-                                    <div class="form-messege text-success"></div>
-                                </div>
-                            </form>
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" cols="30" rows="4" class="form-control"
+                                            placeholder="Write Your Message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="theme-btn">Send Message <i class="far fa-paper-plane"></i></button>
+                                    <div class="col-md-12 my-3">
+                                        <div class="form-messege text-success" id="formMessage"></div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <script>
+                            document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+                                e.preventDefault();
+
+                                const name = document.getElementById('name').value.trim();
+                                const phone = document.getElementById('phone').value.trim();
+                                const subject = document.getElementById('subject').value.trim();
+                                const message = document.getElementById('message').value.trim();
+
+                                const phonePattern = /^[6-9][0-9]{9}$/;
+                                if (!phonePattern.test(phone)) {
+                                    alert('Please enter a valid 10-digit phone number starting with 9, 8, 7, or 6.');
+                                    return;
+                                }
+
+                                const whatsappMessage = `Hello, my name is ${name}.%0APhone: ${phone}%0ASubject: ${subject}%0AMessage: ${message}`;
+                                
+                                const whatsappNumber = '919706238017';
+                                const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+                                window.open(whatsappURL, '_blank');
+
+                                document.getElementById('formMessage').innerText = "Redirecting to WhatsApp...";
+                            });
+                            </script>
+
                         </div>
                     </div>
                 </div>
@@ -120,23 +145,33 @@ include("include/header.php"); ?>
     <!-- end contact area -->
 
 
-    <!-- newsletter area -->
+     <!-- newsletter area -->
     <div class="newsletter-area pb-100">
         <div class="container wow fadeInUp" data-wow-delay=".25s">
             <div class="newsletter-wrap">
                 <div class="row">
                     <div class="col-lg-6 mx-auto">
                         <div class="newsletter-content">
-                            <h3>Get <span>20%</span> Off Discount Coupon</h3>
-                            <p>By Subscribe Our Newsletter</p>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="email" class="form-control" placeholder="Your Email Address">
+                            <h3>Get in <span>Touch</span> With Us</h3>
+                            <p>Send us your message directly via WhatsApp</p>
+                            <div class="subscribe-form mt-4">
+                                <form onsubmit="return sendWhatsAppMessage();">
+                                    <input type="text" id="userMessage" class="form-control mb-2" placeholder="Your Message" required>
                                     <button class="theme-btn" type="submit">
-                                        Subscribe <i class="far fa-paper-plane"></i>
+                                        Send Message <i class="fab fa-whatsapp"></i>
                                     </button>
                                 </form>
                             </div>
+                            <script>
+                            function sendWhatsAppMessage() {
+                                var message = document.getElementById("userMessage").value;
+                                var whatsappNumber = "919876543210"; // replace with your company WhatsApp number
+                                var text = "Hello, I want to get in touch. Message: " + message;
+                                var url = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(text);
+                                window.open(url, "_blank");
+                                return false; // prevent default form submission
+                            }
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -144,6 +179,7 @@ include("include/header.php"); ?>
         </div>
     </div>
     <!-- newsletter area end -->
+
 
 
         <!-- map -->

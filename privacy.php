@@ -26,75 +26,86 @@ include("include/header.php"); ?>
                         <div class="terms-content">
                             <h3>Privacy Policy</h3>
                             <p>
-                                Aenean ullamcorper est est, ac bibendum ipsum tincidunt vehicula. Nulla faucibus
-                                vulputate lorem, vitae placerat felis blandit ut. Nam sem quam, euismod sit amet augue
-                                et, mollis congue nisi. Vestibulum fringilla lobortis nunc ac tincidunt. Cras nec
-                                convallis quam. Maecenas non sem ut enim facilisis rhoncus. Sed odio ex, efficitur ac
-                                commodo sed, convallis vitae lectus. Aenean at urna ac tellus ullamcorper pretium.
-                                Aliquam erat volutpat. Aliquam sit amet tellus in tortor posuere convallis quis nec
-                                tellus. Nulla eu mauris sit amet enim eleifend congue. Quisque aliquam, turpis quis
-                                elementum tempus, velit arcu dignissim dui, a vehicula lectus nisi non felis.
+                                Sidmus Medi Corporation ("we", "our", "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or interact with our services.
                             </p>
                         </div>
                         <div class="terms-content">
-                            <h3>Collect Information</h3>
+                            <h3>Introduction</h3>
                             <p>
-                                Donec ac pulvinar diam, ac mollis augue. Etiam interdum fringilla magna, at placerat
-                                libero malesuada sed. Proin tincidunt a sapien at facilisis. Cras nec lectus pretium,
-                                convallis tellus eu, placerat augue. Curabitur luctus odio efficitur elit volutpat, quis
-                                venenatis tellus vestibulum. Nam ultrices massa id tellus commodo, at mollis elit
-                                mattis. Etiam eget ultrices lectus, at faucibus mauris. Integer at mauris ex. Vivamus
-                                interdum cursus mi quis venenatis. Sed pulvinar efficitur quam quis congue. Ut vel
-                                ornare lorem. Vivamus mi mi, vestibulum nec eleifend eu, lobortis ac neque. Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit. Sed hendrerit augue dui, non rutrum enim
-                                ultrices vel. Fusce mattis ullamcorper nisl, sit amet venenatis odio tincidunt eget.
+                                Sidmus Medi Corporation (“we,” “our,” or “us”) values your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, store, and protect your information when you visit our website or use our services. By accessing or using our website, you agree to the practices described in this policy and consent to the collection and use of your information as outlined below.
                             </p>
                         </div>
+
                         <div class="terms-content">
-                            <h3>Usage of Information</h3>
+                            <h3>Information We Collect</h3>
                             <p>
-                                Phasellus commodo venenatis erat, et vestibulum mi fringilla in. Proin elit urna,
-                                condimentum ut elit id, imperdiet rutrum orci. Praesent vehicula velit at est rutrum
-                                lacinia. Nullam accumsan at tortor in ullamcorper. Proin semper sagittis nisl, vitae
-                                finibus nisl maximus non. Cras dictum risus quis augue tempor egestas. Proin luctus
-                                fermentum nunc, eget pretium dolor tristique id.
-                            </p>
-                            <p>
-                                Suspendisse hendrerit ex sit amet augue lobortis ullamcorper. Maecenas dignissim
-                                facilisis orci, non imperdiet sapien ornare at. Pellentesque habitant morbi tristique
-                                senectus et netus et malesuada fames ac turpis egestas.
-                            </p>
-                            <p>
-                                Nam ultrices mi mauris, eget tempus massa ornare id. Aenean rhoncus vestibulum diam, ut
-                                dapibus dolor vehicula non. Proin rhoncus convallis commodo.
+                                We collect various types of information to provide better services and enhance your experience on our website. This may include personal information such as your name, email address, phone number, postal address, and any other details you provide while submitting inquiries, feedback, or registrations. We also collect usage information, including pages visited, time spent on pages, clicks, device type, and browser details. Additionally, cookies, pixels, and similar technologies are used to track website interactions and gather analytics data to improve functionality and user experience.
                             </p>
                         </div>
+
                         <div class="terms-content">
-                            <h3>Security Of User Data</h3>
-                            <p>Integer justo neque imperdiet vitae consequat in vehicula quis dolor orbi lorem leo
-                                volutpat a tristique :</p>
-                            <ul class="terms-list ms-4">
-                                <li>1. Ut scelerisque hendrerit venenatis</li>
-                                <li>2. Proin fermentum lacus nec augue blandit placerat</li>
-                                <li>3. Ut vestibulum elit justo suscipit sem ultricies</li>
-                                <li>4. Integer fermentum vitae magna in condimentum</li>
-                                <li>5. Aenean ultrices neque id pellentesque tincidunt</li>
-                                <li>6. Donec ut vestibulum sem, in faucibus mauris.</li>
-                            </ul>
-                        </div>
-                        <div class="terms-content">
-                            <h3>Copyright and Security</h3>
+                            <h3>How We Use Your Information</h3>
                             <p>
-                                Vestibulum bibendum metus quis purus sagittis ultricies. Vestibulum fringilla urna
-                                volutpat eros pharetra consectetur. Integer rutrum eu odio et pulvinar. Sed hendrerit
-                                pellentesque faucibus. In venenatis lacus sit amet vehicula efficitur. Suspendisse
-                                pulvinar malesuada dui non mollis. Aliquam urna massa, rutrum vel luctus in, facilisis a
-                                turpis. Ut aliquet accumsan turpis, eget egestas sem pellentesque nec. Phasellus
-                                faucibus congue tempor. Mauris ac massa scelerisque metus pulvinar feugiat in ut leo.
-                                Proin congue felis orci. Suspendisse consectetur nisl at faucibus venenatis. Quisque
-                                pretium rhoncus dui, porttitor varius mi iaculis nec.
+                                The information collected is used to respond to your inquiries, provide updates and newsletters, improve website performance, analyze trends and traffic patterns, and enhance security. We may use data to personalize content, offer relevant information, and facilitate communication with our users. Marketing communications are sent only to those who have explicitly opted in. Our primary goal is to utilize your information responsibly to enhance your experience and provide high-quality services.
                             </p>
                         </div>
+
+                        <div class="terms-content">
+                            <h3>Sharing of Information</h3>
+                            <p>
+                                Sidmus Medi Corporation does not sell, rent, or trade personal information. Trusted third-party service providers may access your information to assist with website operations, analytics, marketing, or communication. We may also disclose information if required by law or in response to legal requests. In all cases, we ensure that third parties comply with strict privacy and security standards to protect your data.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>Cookies and Tracking Technologies</h3>
+                            <p>
+                                Cookies, web beacons, and similar technologies are used to enhance your browsing experience, remember preferences, and analyze website traffic. Cookies help us deliver personalized content and measure the effectiveness of our services. You may choose to disable cookies through your browser settings; however, certain features or services on our website may not function correctly without cookies. By continuing to use the website, you consent to our use of these tracking technologies in accordance with this policy.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>Data Security</h3>
+                            <p>
+                                We implement physical, technical, and administrative measures to safeguard your personal information against unauthorized access, alteration, or disclosure. While we strive to ensure the security of your data, no method of transmission over the internet or electronic storage is completely secure. Users acknowledge that while we take reasonable precautions, absolute security cannot be guaranteed.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>Your Rights</h3>
+                            <p>
+                                Users have the right to access, review, correct, or delete their personal information. You may request deletion of your data or opt out of marketing communications at any time. Requests regarding personal information should be directed to our support team, and we will respond promptly to ensure your rights are respected. Users are encouraged to maintain accurate and up-to-date information for effective communication.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>External Links</h3>
+                            <p>
+                                Our website may contain links to third-party websites for convenience or reference purposes. We are not responsible for the privacy practices or content of external sites. Users are advised to review the privacy policies of third-party websites before sharing personal information. Sidmus Medi Corporation does not endorse or assume liability for external content.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>Children’s Privacy</h3>
+                            <p>
+                                Our services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If it is discovered that a child has provided personal information, we will take reasonable steps to delete such data promptly. Parents or guardians are encouraged to supervise their children’s online activity and ensure compliance with this policy.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>Changes to Privacy Policy</h3>
+                            <p>
+                                Sidmus Medi Corporation may update this Privacy Policy periodically to reflect changes in practices, technology, legal requirements, or business needs. Any updates will be posted on this page with an updated effective date. Users are encouraged to review this page regularly to stay informed of changes. Continued use of the website following modifications constitutes acceptance of the revised policy.
+                            </p>
+                        </div>
+
+                        <div class="terms-content">
+                            <h3>Contact Us</h3>
+                            <p>
+                                If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact Sidmus Medi Corporation at <a href="mailto:info@sidmusmedi.com">info@sidmusmedi.com</a>. We are committed to addressing your inquiries promptly and ensuring the privacy and protection of your information.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>

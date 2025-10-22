@@ -28,63 +28,42 @@ include("include/header.php"); ?>
                         </div>
                     </div>
                 </div>
-                <div class="row g-4 popup-gallery">
-                    <div class="col-md-12 col-lg-6">
-                        <div class="gallery-item gallery-btn-active wow fadeInUp" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/01.jpg" alt="">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/01.jpg"><i
-                                    class="fal fa-plus"></i></a>
-                            </div>
+                <div class="row g-4 popup-gallery" id="galleryContainer"></div>
+
+                <script>
+                const galleryImages = [
+                    "1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg",
+                    "7.jpeg", "8.jpeg", "9.jpeg", "10.jpeg", "11.jpeg", "12.jpeg", "13.jpeg", "14.png"
+                ];
+
+                const galleryContainer = document.getElementById("galleryContainer");
+
+                galleryImages.forEach((img, index) => {
+                    let colClass = "col-md-4 col-lg-3";
+                    let imgHeight = "350px";
+
+                    if ([0, 5, 6, 11, 12].includes(index)) {
+                    colClass = "col-md-8 col-lg-6";
+                    imgHeight = "350px";
+                    }
+
+                    const div = document.createElement("div");
+                    div.className = `${colClass}`;
+                    div.innerHTML = `
+                    <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
+                        <div class="gallery-img">
+                        <img src="assets/img/home/${img}" alt="Gallery Image"
+                            style="width:100%; height:${imgHeight}; object-fit:cover; border-radius:6px;">
+                        <a class="popup-img gallery-link" href="assets/img/home/${img}">
+                            <i class="fal fa-plus"></i>
+                        </a>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/02.jpg" alt="">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/02.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/03.jpg" alt="">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/03.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/04.jpg" alt="">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/04.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/05.jpg" alt="">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/05.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-lg-6">
-                        <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/06.jpg" alt="">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/06.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    `;
+                    galleryContainer.appendChild(div);
+                });
+                </script>
+
             </div>
         </div>
-        <!-- gallery-area end -->
 <?php include("include/footer.php"); ?>

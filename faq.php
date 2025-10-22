@@ -20,39 +20,21 @@ include("include/header.php"); ?>
         <!-- faq area -->
         <div class="faq-area py-100">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 mb-4">
-                        <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                                Most Popular Questions
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">Managing Account</a>
-                            <a href="#" class="list-group-item list-group-item-action">Working With Dashboard</a>
-                            <a href="#" class="list-group-item list-group-item-action">Available Payment Methods</a>
-                            <a href="#" class="list-group-item list-group-item-action">Delivery Information</a>
-                            <a href="#" class="list-group-item list-group-item-action">Order Tracking Instructions</a>
-                            <a href="#" class="list-group-item list-group-item-action">Refund Policy</a>
-                            <a href="#" class="list-group-item list-group-item-action">Offers And Discounts</a>
-                            <a href="#" class="list-group-item list-group-item-action">Affiliate Program</a>
-                            <a href="#" class="list-group-item list-group-item-action">Service Terms & Conditions</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
+                <div class="row justify-content-center">
+                    
+                    <div class="col-lg-10">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span><i class="far fa-question"></i></span> Do I need an account to place an order ?
+                                        <span><i class="far fa-question"></i></span> What is Sidmus Medi Corporation?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We denounce with righteous indignation and dislike men who
-                                        are so beguiled and demoralized by the charms of pleasure of the moment, so
-                                        blinded by desire. Ante odio dignissim quam, vitae pulvinar turpis erat ac elit
-                                        eu orci id odio facilisis pharetra.
+                                       Sidmus Medi Corporation is a leading pharmaceutical company providing high-quality medicines and healthcare solutions across Assam and the Northeast region.
                                     </div>
                                 </div>
                             </div>
@@ -60,16 +42,13 @@ include("include/header.php"); ?>
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <span><i class="far fa-question"></i></span> What payment methods do you accept ?
+                                        <span><i class="far fa-question"></i></span> Where are your products available?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We denounce with righteous indignation and dislike men who
-                                        are so beguiled and demoralized by the charms of pleasure of the moment, so
-                                        blinded by desire. Ante odio dignissim quam, vitae pulvinar turpis erat ac elit
-                                        eu orci id odio facilisis pharetra.
+                                        Our products are distributed across multiple pharmacies and hospitals in Assam and the Northeast, ensuring easy access for communities.
                                     </div>
                                 </div>
                             </div>
@@ -78,16 +57,13 @@ include("include/header.php"); ?>
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        <span><i class="far fa-question"></i></span> How long will delivery take ?
+                                        <span><i class="far fa-question"></i></span> Do you provide guidance on medicine usage?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We denounce with righteous indignation and dislike men who
-                                        are so beguiled and demoralized by the charms of pleasure of the moment, so
-                                        blinded by desire. Ante odio dignissim quam, vitae pulvinar turpis erat ac elit
-                                        eu orci id odio facilisis pharetra.
+                                        Yes! We emphasize patient education and provide clear usage instructions, awareness campaigns, and healthcare guidance to ensure safe medicine usage.
                                     </div>
                                 </div>
                             </div>
@@ -96,16 +72,13 @@ include("include/header.php"); ?>
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        <span><i class="far fa-question"></i></span> Do you have discounts for returning customers ?
+                                        <span><i class="far fa-question"></i></span> Are your medicines safe for all age groups?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse"
                                     aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We denounce with righteous indignation and dislike men who
-                                        are so beguiled and demoralized by the charms of pleasure of the moment, so
-                                        blinded by desire. Ante odio dignissim quam, vitae pulvinar turpis erat ac elit
-                                        eu orci id odio facilisis pharetra.
+                                        Our products are formulated according to strict quality standards. However, dosage recommendations may vary by age and health condition, so it's important to follow guidance from healthcare professionals.
                                     </div>
                                 </div>
                             </div>
@@ -114,16 +87,13 @@ include("include/header.php"); ?>
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false"
                                         aria-controls="collapseFive">
-                                        <span><i class="far fa-question"></i></span> How can I track my order ?
+                                        <span><i class="far fa-question"></i></span>How can I report a problem with a medicine?
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse"
                                     aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We denounce with righteous indignation and dislike men who
-                                        are so beguiled and demoralized by the charms of pleasure of the moment, so
-                                        blinded by desire. Ante odio dignissim quam, vitae pulvinar turpis erat ac elit
-                                        eu orci id odio facilisis pharetra.
+                                        You can contact our customer support through our website or call our helpline. We take feedback seriously and address any issues promptly.
                                     </div>
                                 </div>
                             </div>
@@ -132,16 +102,28 @@ include("include/header.php"); ?>
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseSix" aria-expanded="false"
                                         aria-controls="collapseSix">
-                                        <span><i class="far fa-question"></i></span> What are the product refund conditions ?
+                                        <span><i class="far fa-question"></i></span> Do you offer preventive healthcare programs?
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse"
                                     aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        We denounce with righteous indignation and dislike men who
-                                        are so beguiled and demoralized by the charms of pleasure of the moment, so
-                                        blinded by desire. Ante odio dignissim quam, vitae pulvinar turpis erat ac elit
-                                        eu orci id odio facilisis pharetra.
+                                        Yes! Sidmus Medi Corporation runs awareness campaigns, preventive health initiatives, and community outreach programs to promote wellness.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false"
+                                        aria-controls="collapseSix">
+                                        <span><i class="far fa-question"></i></span> Can I buy your products online?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Currently, our products are available through authorized pharmacies and hospitals. Online availability may vary depending on your location.
                                     </div>
                                 </div>
                             </div>
