@@ -16,7 +16,6 @@ include("include/header.php"); ?>
     </div>
     <!-- breadcrumb end -->
 
-
     <!-- contact area -->
     <div class="contact-area pt-100 pb-80">
         <div class="container">
@@ -144,8 +143,7 @@ include("include/header.php"); ?>
     </div>
     <!-- end contact area -->
 
-
-     <!-- newsletter area -->
+    <!-- newsletter area -->
     <div class="newsletter-area pb-100">
         <div class="container wow fadeInUp" data-wow-delay=".25s">
             <div class="newsletter-wrap">
@@ -165,11 +163,11 @@ include("include/header.php"); ?>
                             <script>
                             function sendWhatsAppMessage() {
                                 var message = document.getElementById("userMessage").value;
-                                var whatsappNumber = "919876543210"; // replace with your company WhatsApp number
+                                var whatsappNumber = "919876543210";
                                 var text = "Hello, I want to get in touch. Message: " + message;
                                 var url = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(text);
                                 window.open(url, "_blank");
-                                return false; // prevent default form submission
+                                return false;
                             }
                             </script>
                         </div>
@@ -180,12 +178,10 @@ include("include/header.php"); ?>
     </div>
     <!-- newsletter area end -->
 
-
-
-        <!-- map -->
-        <div class="contact-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114612.70569596994!2d91.70288289999999!3d26.1430486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a287f9133ff%3A0x2bbd1332436bde32!2sGuwahati%2C%20Assam!5e0!3m2!1sen!2sin!4v1761131152197!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <!-- end map -->
+    <!-- map -->
+    <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114612.70569596994!2d91.70288289999999!3d26.1430486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a287f9133ff%3A0x2bbd1332436bde32!2sGuwahati%2C%20Assam!5e0!3m2!1sen!2sin!4v1761131152197!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- end map -->
 
     <?php include("include/footer.php"); ?>
